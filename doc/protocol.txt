@@ -1,0 +1,19 @@
+zonome protocols
+
+message		parameters	description
+---------------------------------------------------------------------
+Core
+play		x y		plays clip on track x clip y
+scene		s		launches scene s
+stop		t		stops all clips on track t
+
+Transport
+mplay		-		master play
+mstop		-		master stop
+tempo		x		set tempo to x
+
+Peripheral
+function	x y		play function (dummy) clip in fx bank
+kaos		x y z		"kaos" pad
+
+* - all subject to change, and may or may not be implemented yet.
